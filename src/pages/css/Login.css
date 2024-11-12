@@ -1,0 +1,27 @@
+.container-login {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.card-login {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.user,
+.psw {
+  margin: 10px;
+  height: 20px;
+  width: 250px;
+}
+
+.button-login {
+  margin-top: 20px;
+}
